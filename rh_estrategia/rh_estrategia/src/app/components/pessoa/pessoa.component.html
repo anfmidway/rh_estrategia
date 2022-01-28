@@ -1,0 +1,72 @@
+<div class="row">
+
+  <div class="col-sm-6" *ngIf="pessoaSelecionado">
+    <div class="row">
+      <div class="mr-auto">
+        <app-titulo [titulo]="'Cód. pessoa: ' + pessoaSelecionado.id"></app-titulo>
+      </div>
+      <div class="mt-1">
+        <button class="btn btn-sm btn-outline-danger" (click)="voltar()">
+          Fechar
+        </button>
+      </div>
+    </div>
+
+    <form [formGroup]="pessoaForm">
+      <div class="form-group">
+        <label for="formGroupExampleInput">Nome</label>
+        <input type="text" formControlName="nome" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Sobrenome</label>
+        <input type="text" formControlName="sobrenome"  class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Telefone</label>
+        <input type="text" formControlName="telefone" class="form-control">
+      </div>
+      <div class="form-group">
+        <hr>
+        <button class="btn btn-success" (click)="savePessoa()" [disabled]="!pessoaForm.valid">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+  <div [ngClass]="{'col-sm-6': pessoaSelecionado, 'col-sm-12': !pessoaSelecionado}">
+    <app-titulo [titulo]="titulo"></app-titulo>
+
+    <table class="table table-hover">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Visualizar</th>
+          <th scope="col">#</th>
+          <th scope="col">Nome</th>
+          <th scope="col">Sobrenome</th>
+          <th scope="col">telefone</th>
+          <th scope="col">Opções</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pessoa of pessoas">
+          <td><button (click)="pessoaSelect(pessoa)"
+            class="text-dark btn btn-sm btn-outline-warning">Detalhe</button></td>
+          <td scope="row">{{pessoa.id}}</td>
+          <td>{{pessoa.nome}}</td>
+          <td>{{pessoa.sobrenome}}</td>
+          <td>{{pessoa.telefone}}</td>
+          <td>
+            <div class="btn-group">
+              <button (click)="openModal(template, pessoa.id)" class="btn btn-sm btn-outline-primary">Professores</button>
+              <button class="btn btn-sm btn-outline-danger">Desativar</button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<ng-template #template>
+  
+</ng-template>

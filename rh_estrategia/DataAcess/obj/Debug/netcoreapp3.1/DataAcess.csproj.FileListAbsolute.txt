@@ -1,0 +1,15 @@
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\bin\Debug\netcoreapp3.1\DataAcess.deps.json
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\bin\Debug\netcoreapp3.1\DataAcess.runtimeconfig.json
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\bin\Debug\netcoreapp3.1\DataAcess.runtimeconfig.dev.json
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\bin\Debug\netcoreapp3.1\DataAcess.dll
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\bin\Debug\netcoreapp3.1\DataAcess.pdb
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\bin\Debug\netcoreapp3.1\Domain.dll
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.csproj.AssemblyReference.cache
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.AssemblyInfoInputs.cache
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.AssemblyInfo.cs
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.csproj.CoreCompileInputs.cache
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.csproj.CopyComplete
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.dll
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.pdb
+D:\aulas\2022\rg_estrategia\rh_estrategia\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+D:\aulas\2022\rg_estrategia\rh_estrategia\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+D:\aulas\2022\rg_estrategia\rh_estrategia\Service\bin\Debug\netcoreapp3.1\Service.dll
+D:\aulas\2022\rg_estrategia\rh_estrategia\Service\bin\Debug\netcoreapp3.1\Service.pdb
+D:\aulas\2022\rg_estrategia\rh_estrategia\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+D:\aulas\2022\rg_estrategia\rh_estrategia\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+D:\aulas\2022\rg_estrategia\rh_estrategia\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+D:\aulas\2022\rg_estrategia\rh_estrategia\Service\obj\Debug\netcoreapp3.1\Service.dll
+D:\aulas\2022\rg_estrategia\rh_estrategia\Service\obj\Debug\netcoreapp3.1\Service.pdb
